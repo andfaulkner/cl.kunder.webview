@@ -40,3 +40,5 @@ Then, to close the second webview and return to the main view, call in your seco
     webview.Close();
 
 This will close and destroy the second webview.
+
+Forked solely to remove autoprefixing, to allow use of remote URLs.

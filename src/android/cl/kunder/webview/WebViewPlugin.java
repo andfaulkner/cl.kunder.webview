@@ -142,7 +142,7 @@ public class WebViewPlugin extends CordovaPlugin {
         //        externalWhitelist,
         //        preferences);
 
-        webView.loadUrl("file:///android_asset/www/" + url);
+        webView.loadUrl(url);
         //otherWebView.loadUrl("file:///android_asset/www/" + url);
 
         DisplayMetrics displaymetrics = new DisplayMetrics();
